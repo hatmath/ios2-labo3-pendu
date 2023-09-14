@@ -1,7 +1,7 @@
 
 import UIKit
 
-class GameVC: UIViewController {
+class GameVC: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var txtFieldUneLettre: UITextField!
     @IBOutlet weak var txtFieldLesLettres: UITextField!
@@ -26,6 +26,16 @@ class GameVC: UIViewController {
         lblMessage.text = ""
         imgViewPendu.image = UIImage(named: "0_echafaud")
         lblDevinette.text = hangmanGame.getGuessedWord()
+        txtFieldUneLettre.delegate = self
+    }
+    
+    // UITextFieldDelegate method
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        let currentText = txtFieldUneLettre.text ?? ""
+        let prospectiveText = (currentText as NSString).replacingCharacters(in: range, with: string)
+        
+        // Si la longueur du texte est supérieure à 1, retournez false
+        return prospectiveText.count <= 1
     }
     
     override func viewWillAppear(_ animated: Bool) {
