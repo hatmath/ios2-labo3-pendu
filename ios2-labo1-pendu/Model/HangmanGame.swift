@@ -1,9 +1,3 @@
-//
-//  HangmanGame.swift
-//  ios2-labo2-pendu
-//
-//  Created by Simon Turcotte (2395412) et Mathieu Hatin (2296939)
-//
 
 import UIKit
 import Foundation

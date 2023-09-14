@@ -1,9 +1,3 @@
-//
-//  Score.swift
-//  ios2-labo3-pendu
-//
-//  Created by Simon Turcotte (2395412) et Mathieu Hatin (2296939)
-//
 
 import Foundation
 
