@@ -1,8 +1,8 @@
 # BUG À CORRIGER AVANT LA REMISE
 
-	- Ne pas pouvoir entrer plusieurs lettres d'un coup
- 	- Ne plus pouvoir écrire dans les lettres utilisée
-  	- Les espaces et les chiffres devrait être fourni
+	ok- Ne pas pouvoir entrer plusieurs lettres d'un coup
+ 	ok- Ne plus pouvoir écrire dans les lettres utilisée
+  	ok- Les espaces et les chiffres devrait être fourni
 
 # ENTÊTE
    
