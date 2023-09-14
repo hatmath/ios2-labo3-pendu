@@ -22,7 +22,6 @@
 		872A9F6A2A82B9FF00815AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872A9F692A82B9FF00815AEB /* Assets.xcassets */; };
 		872A9F6D2A82B9FF00815AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872A9F6B2A82B9FF00815AEB /* LaunchScreen.storyboard */; };
 		8730F5972A98327300ECEB5A /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730F5962A98327300ECEB5A /* Score.swift */; };
-		8730F5992A9843E100ECEB5A /* ScoreTestingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730F5982A9843E100ECEB5A /* ScoreTestingVC.swift */; };
 		874EAB902A898C1700F5C4CC /* HangmanGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EAB8F2A898C1700F5C4CC /* HangmanGame.swift */; };
 		874EAB922A898C5F00F5C4CC /* MovieDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EAB912A898C5F00F5C4CC /* MovieDownloader.swift */; };
 		874EAB942A898CA900F5C4CC /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874EAB932A898CA900F5C4CC /* MovieList.swift */; };
@@ -49,7 +48,6 @@
 		872A9F6C2A82B9FF00815AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		872A9F6E2A82B9FF00815AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8730F5962A98327300ECEB5A /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
-		8730F5982A9843E100ECEB5A /* ScoreTestingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTestingVC.swift; sourceTree = "<group>"; };
 		874EAB8F2A898C1700F5C4CC /* HangmanGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanGame.swift; sourceTree = "<group>"; };
 		874EAB912A898C5F00F5C4CC /* MovieDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDownloader.swift; sourceTree = "<group>"; };
 		874EAB932A898CA900F5C4CC /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 				874FD4272A939901009C091F /* DashboardVC.swift */,
 				37E7EAC02A967A5F00C2F654 /* WordStartVC.swift */,
 				879313672A979D6100C7FF69 /* ScoreVC.swift */,
-				8730F5982A9843E100ECEB5A /* ScoreTestingVC.swift */,
 				37355AD82AB005E000FF895D /* SettingsVC.swift */,
 			);
 			path = Controller;
@@ -233,7 +230,6 @@
 				874FD4282A939901009C091F /* DashboardVC.swift in Sources */,
 				874EAB902A898C1700F5C4CC /* HangmanGame.swift in Sources */,
 				37E7EAC12A967A5F00C2F654 /* WordStartVC.swift in Sources */,
-				8730F5992A9843E100ECEB5A /* ScoreTestingVC.swift in Sources */,
 				37355AD12AAFE82B00FF895D /* CoreDataStack.swift in Sources */,
 				879313682A979D6100C7FF69 /* ScoreVC.swift in Sources */,
 				37355AD42AAFF1C700FF895D /* BestScores+CoreDataClass.swift in Sources */,
