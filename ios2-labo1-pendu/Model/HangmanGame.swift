@@ -138,7 +138,7 @@ class HangmanGame {
     }
     
     func compareCharacterArraysIgnoringSpaces(_ array1: [Character], _ array2: [Character]) -> Bool {
-        let string1 = String(array1.filter { $0 != "_" })
+        let string1 = String(array1.filter { $0 != " " })
         let string2 = String(array2.filter { $0 != " " })
         print(string1)
         print(string2)
